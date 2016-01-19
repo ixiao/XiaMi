@@ -25,7 +25,7 @@
         
         CGFloat viewHeight = frame.size.height;
         CGFloat pading     = 10;
-        
+        CGFloat btnY       = (viewHeight-pading * 4)  /2;
         /**
          歌曲图片
          */
@@ -39,7 +39,7 @@
         /**
          歌曲名字
          */
-        _songName = [[UILabel alloc]initWithFrame:CGRectMake(viewHeight + pading/2, viewHeight/2-18, K_ScreenWidth - viewHeight*1.4 - pading * 10, 20)];
+        _songName = [[UILabel alloc]initWithFrame:CGRectMake(viewHeight + pading/2, viewHeight/2-18, K_ScreenWidth - viewHeight*1.4 - pading * 12, 20)];
         _songName.textColor=K_Color(244, 244, 244);
         _songName.font=[UIFont systemFontOfSize:16];
         
@@ -54,14 +54,16 @@
          *  播放按钮
          */
         _playBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _playBtn.frame = CGRectMake(K_ScreenWidth-pading*9, viewHeight * 0.1, viewHeight * 0.68, viewHeight * 0.68);
+        _playBtn.frame = CGRectMake(K_ScreenWidth-pading*10, btnY, pading * 4,  pading * 4);
+        [_playBtn setBackgroundImage:[UIImage imageNamed:@"bofang_kaishi"] forState:UIControlStateNormal];
         [_playBtn addTarget:self action:@selector(playSong:) forControlEvents:UIControlEventTouchUpInside];
         
         /**
          *  下一首按钮
          */
         _nextBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _nextBtn.frame = CGRectMake(K_ScreenWidth-pading*4, viewHeight * 0.1, viewHeight * 0.68, viewHeight * 0.68);
+        _nextBtn.frame = CGRectMake(K_ScreenWidth-pading*5, btnY, pading * 4,  pading * 4);
+        [_nextBtn setBackgroundImage:[UIImage imageNamed:@"bofang_xiayishou"] forState:UIControlStateNormal];
         [_nextBtn addTarget:self action:@selector(nextSong:) forControlEvents:UIControlEventTouchUpInside];
 
         [self addSubview:_playBtn];
@@ -84,6 +86,7 @@
 {
     if (isPlay) {
         [_playBtn setBackgroundImage:[UIImage imageNamed:@"bofang_zhanting"] forState:UIControlStateNormal];
+
         [self.player pause];
         isPlay = NO;
     }else

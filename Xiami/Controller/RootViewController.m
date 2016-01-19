@@ -31,9 +31,7 @@
     play.songAuthor.text=@"金玟岐";
     play.songName.text=@"岁月神偷";
     play.songImg.image=[UIImage imageNamed:@"jinwenqi"];
-    [play.playBtn setBackgroundImage:[UIImage imageNamed:@"bofang_kaishi"] forState:UIControlStateNormal];
     
-    [play.nextBtn setBackgroundImage:[UIImage imageNamed:@"bofang_xiayishou"] forState:UIControlStateNormal];
     
     [self.view addSubview:play];
     

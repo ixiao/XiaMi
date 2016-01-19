@@ -7,39 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11C744C21C4E7AD600A4C9DB /* UIColor+Most.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C744C11C4E7AD600A4C9DB /* UIColor+Most.m */; };
+		11C744C61C4E7ADE00A4C9DB /* SongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C744C51C4E7ADE00A4C9DB /* SongModel.m */; };
+		11C744CA1C4E7AE500A4C9DB /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C744C91C4E7AE500A4C9DB /* PlayView.m */; };
+		11C744D01C4E7AEC00A4C9DB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C744CD1C4E7AEC00A4C9DB /* MainViewController.m */; };
+		11C744D11C4E7AEC00A4C9DB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C744CF1C4E7AEC00A4C9DB /* RootViewController.m */; };
+		11C744D51C4E7AFA00A4C9DB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11C744D31C4E7AFA00A4C9DB /* Info.plist */; };
+		11C744D61C4E7AFA00A4C9DB /* 金玟岐-岁月神偷.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11C744D41C4E7AFA00A4C9DB /* 金玟岐-岁月神偷.mp3 */; };
+		11C744D81C4E7B5300A4C9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C744D71C4E7B5300A4C9DB /* Assets.xcassets */; };
+		11C744DE1C4E7B5D00A4C9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C744DA1C4E7B5D00A4C9DB /* LaunchScreen.storyboard */; };
+		11C744DF1C4E7B5D00A4C9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C744DC1C4E7B5D00A4C9DB /* Main.storyboard */; };
+		11C744E21C4E7D1100A4C9DB /* AlbumCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C744E11C4E7D1100A4C9DB /* AlbumCoverView.m */; };
 		44A844821C4E1DE800864DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A844811C4E1DE800864DFC /* main.m */; };
 		44A844851C4E1DE800864DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A844841C4E1DE800864DFC /* AppDelegate.m */; };
-		44A844881C4E1DE800864DFC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A844871C4E1DE800864DFC /* RootViewController.m */; };
-		44A8448B1C4E1DE800864DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A844891C4E1DE800864DFC /* Main.storyboard */; };
-		44A8448D1C4E1DE800864DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A8448C1C4E1DE800864DFC /* Assets.xcassets */; };
-		44A844901C4E1DE800864DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A8448E1C4E1DE800864DFC /* LaunchScreen.storyboard */; };
-		44A844A81C4E33E100864DFC /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A844A71C4E33E100864DFC /* PlayView.m */; };
-		44A844AB1C4E353400864DFC /* SongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A844AA1C4E353400864DFC /* SongModel.m */; };
-		44A844AF1C4E401700864DFC /* 金玟岐-岁月神偷.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A844AE1C4E401700864DFC /* 金玟岐-岁月神偷.mp3 */; };
-		44A844B21C4E490000864DFC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A844B11C4E490000864DFC /* MainViewController.m */; };
-		44A844B81C4E4DA500864DFC /* UIColor+Most.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A844B71C4E4DA500864DFC /* UIColor+Most.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11C744C01C4E7AD600A4C9DB /* UIColor+Most.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Most.h"; sourceTree = "<group>"; };
+		11C744C11C4E7AD600A4C9DB /* UIColor+Most.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Most.m"; sourceTree = "<group>"; };
+		11C744C41C4E7ADE00A4C9DB /* SongModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongModel.h; sourceTree = "<group>"; };
+		11C744C51C4E7ADE00A4C9DB /* SongModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongModel.m; sourceTree = "<group>"; };
+		11C744C81C4E7AE500A4C9DB /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		11C744C91C4E7AE500A4C9DB /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
+		11C744CC1C4E7AEC00A4C9DB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		11C744CD1C4E7AEC00A4C9DB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		11C744CE1C4E7AEC00A4C9DB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		11C744CF1C4E7AEC00A4C9DB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		11C744D31C4E7AFA00A4C9DB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C744D41C4E7AFA00A4C9DB /* 金玟岐-岁月神偷.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "金玟岐-岁月神偷.mp3"; sourceTree = "<group>"; };
+		11C744D71C4E7B5300A4C9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11C744DB1C4E7B5D00A4C9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11C744DD1C4E7B5D00A4C9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		11C744E01C4E7D1100A4C9DB /* AlbumCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumCoverView.h; sourceTree = "<group>"; };
+		11C744E11C4E7D1100A4C9DB /* AlbumCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumCoverView.m; sourceTree = "<group>"; };
 		44A8447D1C4E1DE800864DFC /* Xiami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xiami.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A844811C4E1DE800864DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44A844831C4E1DE800864DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44A844841C4E1DE800864DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44A844861C4E1DE800864DFC /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		44A844871C4E1DE800864DFC /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		44A8448A1C4E1DE800864DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		44A8448C1C4E1DE800864DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		44A8448F1C4E1DE800864DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		44A844911C4E1DE800864DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44A844A61C4E33E100864DFC /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
-		44A844A71C4E33E100864DFC /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
-		44A844A91C4E353400864DFC /* SongModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongModel.h; sourceTree = "<group>"; };
-		44A844AA1C4E353400864DFC /* SongModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongModel.m; sourceTree = "<group>"; };
-		44A844AE1C4E401700864DFC /* 金玟岐-岁月神偷.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "金玟岐-岁月神偷.mp3"; sourceTree = "<group>"; };
-		44A844B01C4E490000864DFC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		44A844B11C4E490000864DFC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		44A844B61C4E4DA500864DFC /* UIColor+Most.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Most.h"; sourceTree = "<group>"; };
-		44A844B71C4E4DA500864DFC /* UIColor+Most.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Most.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11C744BF1C4E7AD600A4C9DB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				11C744C01C4E7AD600A4C9DB /* UIColor+Most.h */,
+				11C744C11C4E7AD600A4C9DB /* UIColor+Most.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		11C744C31C4E7ADE00A4C9DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11C744C41C4E7ADE00A4C9DB /* SongModel.h */,
+				11C744C51C4E7ADE00A4C9DB /* SongModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11C744C71C4E7AE500A4C9DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11C744C81C4E7AE500A4C9DB /* PlayView.h */,
+				11C744C91C4E7AE500A4C9DB /* PlayView.m */,
+				11C744E01C4E7D1100A4C9DB /* AlbumCoverView.h */,
+				11C744E11C4E7D1100A4C9DB /* AlbumCoverView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11C744CB1C4E7AEC00A4C9DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11C744CC1C4E7AEC00A4C9DB /* MainViewController.h */,
+				11C744CD1C4E7AEC00A4C9DB /* MainViewController.m */,
+				11C744CE1C4E7AEC00A4C9DB /* RootViewController.h */,
+				11C744CF1C4E7AEC00A4C9DB /* RootViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		11C744D21C4E7AFA00A4C9DB /* Bundle File */ = {
+			isa = PBXGroup;
+			children = (
+				11C744D31C4E7AFA00A4C9DB /* Info.plist */,
+				11C744D71C4E7B5300A4C9DB /* Assets.xcassets */,
+				11C744D41C4E7AFA00A4C9DB /* 金玟岐-岁月神偷.mp3 */,
+			);
+			path = "Bundle File";
+			sourceTree = "<group>";
+		};
 		44A844741C4E1DE800864DFC = {
 			isa = PBXGroup;
 			children = (
@@ -74,17 +128,12 @@
 			children = (
 				44A844831C4E1DE800864DFC /* AppDelegate.h */,
 				44A844841C4E1DE800864DFC /* AppDelegate.m */,
-				44A844861C4E1DE800864DFC /* RootViewController.h */,
-				44A844871C4E1DE800864DFC /* RootViewController.m */,
-				44A844B01C4E490000864DFC /* MainViewController.h */,
-				44A844B11C4E490000864DFC /* MainViewController.m */,
-				44A844891C4E1DE800864DFC /* Main.storyboard */,
-				44A844A61C4E33E100864DFC /* PlayView.h */,
-				44A844A71C4E33E100864DFC /* PlayView.m */,
-				44A844B61C4E4DA500864DFC /* UIColor+Most.h */,
-				44A844B71C4E4DA500864DFC /* UIColor+Most.m */,
-				44A844A91C4E353400864DFC /* SongModel.h */,
-				44A844AA1C4E353400864DFC /* SongModel.m */,
+				11C744DC1C4E7B5D00A4C9DB /* Main.storyboard */,
+				11C744BF1C4E7AD600A4C9DB /* Lib */,
+				11C744C31C4E7ADE00A4C9DB /* Model */,
+				11C744C71C4E7AE500A4C9DB /* View */,
+				11C744CB1C4E7AEC00A4C9DB /* Controller */,
+				11C744D21C4E7AFA00A4C9DB /* Bundle File */,
 				44A844801C4E1DE800864DFC /* Supporting Files */,
 			);
 			path = Xiami;
@@ -93,10 +142,7 @@
 		44A844801C4E1DE800864DFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				44A8448C1C4E1DE800864DFC /* Assets.xcassets */,
-				44A8448E1C4E1DE800864DFC /* LaunchScreen.storyboard */,
-				44A844AE1C4E401700864DFC /* 金玟岐-岁月神偷.mp3 */,
-				44A844911C4E1DE800864DFC /* Info.plist */,
+				11C744DA1C4E7B5D00A4C9DB /* LaunchScreen.storyboard */,
 				44A844811C4E1DE800864DFC /* main.m */,
 			);
 			name = "Supporting Files";
@@ -159,10 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A844901C4E1DE800864DFC /* LaunchScreen.storyboard in Resources */,
-				44A844AF1C4E401700864DFC /* 金玟岐-岁月神偷.mp3 in Resources */,
-				44A8448D1C4E1DE800864DFC /* Assets.xcassets in Resources */,
-				44A8448B1C4E1DE800864DFC /* Main.storyboard in Resources */,
+				11C744D61C4E7AFA00A4C9DB /* 金玟岐-岁月神偷.mp3 in Resources */,
+				11C744DF1C4E7B5D00A4C9DB /* Main.storyboard in Resources */,
+				11C744D51C4E7AFA00A4C9DB /* Info.plist in Resources */,
+				11C744DE1C4E7B5D00A4C9DB /* LaunchScreen.storyboard in Resources */,
+				11C744D81C4E7B5300A4C9DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,33 +220,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A844881C4E1DE800864DFC /* RootViewController.m in Sources */,
-				44A844B21C4E490000864DFC /* MainViewController.m in Sources */,
+				11C744D01C4E7AEC00A4C9DB /* MainViewController.m in Sources */,
+				11C744D11C4E7AEC00A4C9DB /* RootViewController.m in Sources */,
 				44A844851C4E1DE800864DFC /* AppDelegate.m in Sources */,
-				44A844A81C4E33E100864DFC /* PlayView.m in Sources */,
+				11C744CA1C4E7AE500A4C9DB /* PlayView.m in Sources */,
+				11C744C61C4E7ADE00A4C9DB /* SongModel.m in Sources */,
+				11C744C21C4E7AD600A4C9DB /* UIColor+Most.m in Sources */,
+				11C744E21C4E7D1100A4C9DB /* AlbumCoverView.m in Sources */,
 				44A844821C4E1DE800864DFC /* main.m in Sources */,
-				44A844AB1C4E353400864DFC /* SongModel.m in Sources */,
-				44A844B81C4E4DA500864DFC /* UIColor+Most.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		44A844891C4E1DE800864DFC /* Main.storyboard */ = {
+		11C744DA1C4E7B5D00A4C9DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				44A8448A1C4E1DE800864DFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		44A8448E1C4E1DE800864DFC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44A8448F1C4E1DE800864DFC /* Base */,
+				11C744DB1C4E7B5D00A4C9DB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "Bundle File/Base.lproj";
+			sourceTree = "<group>";
+		};
+		11C744DC1C4E7B5D00A4C9DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11C744DD1C4E7B5D00A4C9DB /* Base */,
+			);
+			name = Main.storyboard;
+			path = "Bundle File/Base.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,7 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Xiami/Info.plist;
+				INFOPLIST_FILE = "Xiami/Bundle File/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smartshanghai.Xiami;
@@ -303,7 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Xiami/Info.plist;
+				INFOPLIST_FILE = "Xiami/Bundle File/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smartshanghai.Xiami;
