@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111349321C4F25280009BB11 /* BottomPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111349311C4F25280009BB11 /* BottomPlayerView.m */; };
+		114CF3F81C548C51000C7A82 /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 114CF3F71C548C51000C7A82 /* PlayerManager.m */; };
 		11C744C21C4E7AD600A4C9DB /* UIColor+Most.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C744C11C4E7AD600A4C9DB /* UIColor+Most.m */; };
 		11C744C61C4E7ADE00A4C9DB /* SongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C744C51C4E7ADE00A4C9DB /* SongModel.m */; };
 		11C744CA1C4E7AE500A4C9DB /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C744C91C4E7AE500A4C9DB /* PlayView.m */; };
@@ -23,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		111349301C4F25270009BB11 /* BottomPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomPlayerView.h; sourceTree = "<group>"; };
+		111349311C4F25280009BB11 /* BottomPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomPlayerView.m; sourceTree = "<group>"; };
+		114CF3F61C548C51000C7A82 /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
+		114CF3F71C548C51000C7A82 /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
 		11C744C01C4E7AD600A4C9DB /* UIColor+Most.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Most.h"; sourceTree = "<group>"; };
 		11C744C11C4E7AD600A4C9DB /* UIColor+Most.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Most.m"; sourceTree = "<group>"; };
 		11C744C41C4E7ADE00A4C9DB /* SongModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongModel.h; sourceTree = "<group>"; };
@@ -71,6 +77,8 @@
 			children = (
 				11C744C41C4E7ADE00A4C9DB /* SongModel.h */,
 				11C744C51C4E7ADE00A4C9DB /* SongModel.m */,
+				114CF3F61C548C51000C7A82 /* PlayerManager.h */,
+				114CF3F71C548C51000C7A82 /* PlayerManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,6 +90,8 @@
 				11C744C91C4E7AE500A4C9DB /* PlayView.m */,
 				11C744E01C4E7D1100A4C9DB /* AlbumCoverView.h */,
 				11C744E11C4E7D1100A4C9DB /* AlbumCoverView.m */,
+				111349301C4F25270009BB11 /* BottomPlayerView.h */,
+				111349311C4F25280009BB11 /* BottomPlayerView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114CF3F81C548C51000C7A82 /* PlayerManager.m in Sources */,
 				11C744D01C4E7AEC00A4C9DB /* MainViewController.m in Sources */,
 				11C744D11C4E7AEC00A4C9DB /* RootViewController.m in Sources */,
 				44A844851C4E1DE800864DFC /* AppDelegate.m in Sources */,
@@ -228,6 +239,7 @@
 				11C744C21C4E7AD600A4C9DB /* UIColor+Most.m in Sources */,
 				11C744E21C4E7D1100A4C9DB /* AlbumCoverView.m in Sources */,
 				44A844821C4E1DE800864DFC /* main.m in Sources */,
+				111349321C4F25280009BB11 /* BottomPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

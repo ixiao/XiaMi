@@ -9,5 +9,13 @@
 #import "SongModel.h"
 
 @implementation SongModel
-
+-(instancetype)init
+{
+    self = [super init];
+    if (self) {
+        //实例化时间歌词的数组
+        self.timeForLyric = [NSMutableArray new];
+    }
+    return self;
+}
 @end

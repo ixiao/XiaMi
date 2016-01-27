@@ -11,9 +11,13 @@
 @interface PlayView ()
 {
     BOOL isPlay;
+    CGFloat playTime;
 }
 @property(nonatomic,strong) AVAudioPlayer *player;
 @end
+
+static NSString * const PlayerSongStatePlay;
+static NSString * const PlayerSongStatePause;
 
 @implementation PlayView
 
@@ -35,6 +39,21 @@
         layer.path=path.CGPath;
         _songImg.layer.mask=layer;
         
+        //添加动画
+        CABasicAnimation *monkeyAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+        monkeyAnimation.toValue = [NSNumber numberWithFloat:2.0 *M_PI];
+        monkeyAnimation.duration = 2.0f;
+        monkeyAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
+        monkeyAnimation.cumulative = NO;
+        monkeyAnimation.fillMode=kCAFillModeForwards;
+        monkeyAnimation.removedOnCompletion = NO; //No Remove
+        
+        monkeyAnimation.repeatCount = FLT_MAX;
+        [_songImg.layer addAnimation:monkeyAnimation forKey:@"AnimatedKey"];
+        [_songImg stopAnimating];
+        
+        // 加载动画 但不播放动画
+        _songImg.layer.speed = 0.0;
         
         /**
          歌曲名字
@@ -100,4 +119,5 @@
 {
     
 }
+
 @end
